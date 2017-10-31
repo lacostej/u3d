@@ -19,37 +19,38 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ## --- END LICENSE BLOCK ---
-
+require 'u3d/installation'
 require 'u3d_core/helper'
 
 module U3d
-  class UnityProject
-    attr_reader :path
-
-    def initialize(path)
-      @path = path
+  class BuildPaths
+    def initialize(unity)
+      @unity = unity
     end
 
-    def exist?
-      Dir.exist?("#{@path}/Assets") && Dir.exist?("#{@path}/ProjectSettings")
+    def managed(file)
+      file = File.join(managed_path, file)
+      raise "Managed file '#{file}' not found" unless File.exist? file
+      file
     end
 
-    def editor_version
-      require 'yaml'
-      yaml = YAML.safe_load(File.read("#{@path}/ProjectSettings/ProjectVersion.txt"))
-      version = yaml['m_EditorVersion']
-      version.gsub!(/(\d+\.\d+\.\d+)(?:x)?(\w\d+)(?:Linux)?/, '\1\2') if Helper.linux?
-      version
-    end
-
-    class << self
-      def unity(dir: Dir.pwd)
-        require 'u3d/installer'
-        version = U3d::UnityProject.new(dir).editor_version
-        unity = U3d::Installer.create.installed.find { |u| u.version == version }
-        U3dCore::UI.user_error!("Missing unity version #{version}") unless unity
-        unity
+    def managed_path
+      if U3d::Helper.mac?
+        # Note: the location of the managed files and mcs has changed between 5.3 and 5.6
+        # This method currently only support Unity version 5.6+
+        managed_path = File.join(@unity.path, 'Contents', 'Managed')
+      else
+        managed_path = File.join(@unity.path, 'Editor', 'Data', 'Managed')
       end
+      managed_path
+    end
+    def mcs
+      if U3d::Helper.mac?
+        mcs_path = File.join(@unity.path, 'Contents', 'MonoBleedingEdge', 'bin', 'mcs')
+      else
+        mcs_path = File.join(@unity.path, 'Editor', 'Data', 'MonoBleedingEdge', 'bin', 'mcs')
+      end
+      mcs_path
     end
   end
 end

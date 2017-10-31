@@ -44,6 +44,42 @@ module U3d
         WindowsInstallation.new(root_path: root_path, path: path)
       end
     end
+
+    def paths
+      @paths ||= U3d::BuildPaths.new(self)
+    end
+
+    # FIXME create a parameter for build library operation spec
+    def build_library(references: [], files: [], sdk_level: 2, out: 'Output.dll')
+      target = File.dirname out
+      U3d::Utils.ensure_dir(target)
+
+      reference_string = references.map { |dep| dep.argescape }.join(',')
+
+      output_callback = proc do |line|
+        UI.command_output(line.rstrip)
+      end
+      # we will need a smarter command builder once we have optional parameters
+      command = "#{paths.mcs.argescape} -r:#{reference_string} -target:library -sdk:#{sdk_level} -out:#{out} #{files.join(' ')}"
+      U3dCore::CommandExecutor.execute_command(command: command, output_callback: output_callback)
+      U3dCore::UI.success "Library '#{out}' built!"
+    end
+
+    def export_package(dirs: [], dir: Dir.pwd, log_file: '/dev/stdout',  raw_logs: false, out: nil)
+      # FIXME there's a bit of duplication from the commands here. Revisit API
+      require 'u3d/unity_runner'
+      require 'u3d/log_analyzer'
+      up = U3d::UnityProject.new(dir)
+      run_args = [
+        '-logFile', log_file,
+        '-projectpath', up.path,
+        '-exportPackage', dirs, out,
+        '-batchmode', '-quit'
+      ].flatten
+      runner = Runner.new
+      runner.run(self, run_args, raw_logs: raw_logs)
+      U3dCore::UI.success "UnityPackage '#{out}' built!"
+    end
   end
 
   class MacInstallation < Installation
