@@ -19,13 +19,38 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ## --- END LICENSE BLOCK ---
+require 'u3d/installation'
+require 'u3d_core/helper'
 
 module U3d
-  VERSION = '1.0.10'.freeze
-  DESCRIPTION = 'Provides numerous tools for installing, managing and running the Unity3D game engine from command line.'.freeze
-  UNITY_VERSIONS_NOTE = "Unity3d uses the following version formatting: 0.0.0x0. The \'x\' can takes different values:\n"\
-  "\t. 'f' are the main release candidates for Unity3d\n"\
-  "\t. 'p' are patches fixing those releases\n"\
-  "\t. 'b' are the beta releases\n"\
-  "\t. 'a' are the alpha releases (not currently discovered)\n".freeze
+  class BuildPaths
+    def initialize(unity)
+      @unity = unity
+    end
+
+    def managed(file)
+      file = File.join(managed_path, file)
+      raise "Managed file '#{file}' not found" unless File.exist? file
+      file
+    end
+
+    def managed_path
+      if U3d::Helper.mac?
+        # Note: the location of the managed files and mcs has changed between 5.3 and 5.6
+        # This method currently only support Unity version 5.6+
+        managed_path = File.join(@unity.path, 'Contents', 'Managed')
+      else
+        managed_path = File.join(@unity.path, 'Editor', 'Data', 'Managed')
+      end
+      managed_path
+    end
+    def mcs
+      if U3d::Helper.mac?
+        mcs_path = File.join(@unity.path, 'Contents', 'MonoBleedingEdge', 'bin', 'mcs')
+      else
+        mcs_path = File.join(@unity.path, 'Editor', 'Data', 'MonoBleedingEdge', 'bin', 'mcs')
+      end
+      mcs_path
+    end
+  end
 end
