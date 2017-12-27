@@ -1,0 +1,8 @@
+ruby "2.3.3"
+source 'https://rubygems.org'
+
+# standard WWTK fastlane requirements
+#gem 'u3d', ">=1.0.0.rc1"
+
+plugins_path = File.join(File.dirname(__FILE__), '.u3d', 'Plugins')
+eval(File.read(plugins_path), binding) if File.exist?(plugins_path)

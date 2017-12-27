@@ -1,0 +1,1 @@
+gem "u3d-plugin-foobar", path: "u3d-plugin-foobar"
