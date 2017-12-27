@@ -62,10 +62,6 @@ module Program
 
     private
 
-    def plugin_references
-      @plugin_references ||= {}
-    end    
-
     def load_plugins
       available_plugins.each do |gem_name|
         puts "Loading '#{gem_name}' plugin"
@@ -78,13 +74,6 @@ module Program
           puts ex.class
           puts ex.backtrace
           puts "Error loading plugin '#{gem_name}': #{ex}"
-
-          # We'll still add it to the table, to make the error
-          # much more visible and obvious
-          plugin_references[gem_name] = {
-            version_number: '0.1', #Fastlane::ActionCollector.determine_version(gem_name),
-            actions: []
-          }
         end
       end
     end
@@ -97,11 +86,6 @@ module Program
       commands = Kernel.const_get("U3d::Plugin::#{plugin_name_camelized}").commands
 
       @discovered_plugin_names.push(*commands)
-
-      plugin_references[gem_name] = {
-        version_number: '0.1',
-        actions: commands
-      }
     end
 
     def initialize_register
