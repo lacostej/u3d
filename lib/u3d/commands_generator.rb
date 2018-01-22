@@ -57,13 +57,25 @@ module U3d
       o
     end
 
+    def print_env_info
+      patchlevel = " patchlevel #{RUBY_PATCHLEVEL}" if defined? RUBY_PATCHLEVEL
+      ruby_version = "#{RUBY_VERSION} (#{RUBY_RELEASE_DATE}#{patchlevel}) [#{RUBY_PLATFORM}]"
+      UI.verbose "u3d: #{U3d::VERSION}"
+      UI.verbose "ruby: #{ruby_version}"
+      UI.verbose "bundler: #{U3dCore::Helper.bundler?}"
+      UI.verbose "OS: #{U3dCore::Helper.operating_system}"
+    end
+
     def run
       program :version, U3d::VERSION
       program :description, U3d::DESCRIPTION
       program :help, 'Authors', 'Jerome Lacoste <jerome@wewanttoknow.com>, Paul Niezborala <p.niezborala@wewanttoknow.com>'
       program :help, 'A word on Unity versions', U3d::UNITY_VERSIONS_NOTE
 
-      global_option('--verbose', 'Run in verbose mode') { U3dCore::Globals.verbose = true }
+      global_option('--verbose', 'Run in verbose mode') {
+        U3dCore::Globals.verbose = true
+        print_env_info
+      }
 
       command :run do |c|
         # Intended for backward compatibilty purposes for run command

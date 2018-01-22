@@ -63,6 +63,15 @@ module U3dCore
       return false
     end
 
+    # @return [boolean] true if executing with bundler (like 'bundle exec u3d [action]')
+    def self.bundler?
+      # Bundler environment variable
+      ['BUNDLE_BIN_PATH', 'BUNDLE_GEMFILE'].each do |current|
+        return true if ENV.key?(current)
+      end
+      return false
+    end
+
     def self.windows?
       # taken from: http://stackoverflow.com/a/171011/1945875
       (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
