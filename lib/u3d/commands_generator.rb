@@ -232,7 +232,7 @@ More on that: https://forum.unity3d.com/threads/unity-on-linux-release-notes-and
 
       command :move do |c|
         c.syntax = 'u3d move FIXME'
-        #c.option '-f', '--force', Array, 'Specifies which packages to download/install. Overriden by --all'
+        # c.option '-f', '--force', Array, 'Specifies which packages to download/install. Overriden by --all'
         c.option '-l', '--long', "FIXME"
         c.option '--dry_run', "FIXME"
         c.summary = "Move an existing Unity install to an optionally specified new folder, marking it as non moveable later on"

@@ -88,18 +88,18 @@ module U3d
         version = args[0]
         UI.user_error! "Please specify a Unity version" unless version
         unity = check_unity_presence(version: version)
-        if (unity.nil?)
+        if unity.nil?
           UI.message "Specified version '#{version}' not found."
           return
         end
-        if (unity.do_not_move?)
+        if unity.do_not_move?
           UI.error "Specified version is specicically marked as _do not move_."
           return
         end
-        # FIXME current API
+        # FIXME: current API
         Installer.create(skip_sanitize: true).sanitize_install(unity, long: true, dry_run: options[:dry_run])
         # future API
-        #unity.sanitize_install(long: true, dry_run: options[:dry_run])
+        # unity.sanitize_install(long: true, dry_run: options[:dry_run])
 
         unity.do_not_move! unless options[:dry_run] # this may fail because of admin rights
       end
@@ -268,9 +268,7 @@ module U3d
 
       def installed_sorted_versions
         list = Installer.create.installed
-        if list.empty?
-          return []
-        end
+        return [] if list.empty?
         # version -> installations
         arraym = list.map { |a| [a.version, a] }
         map = Hash[*arraym.flatten]

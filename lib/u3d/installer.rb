@@ -78,7 +78,7 @@ module U3d
   end
 
   class CommonInstaller
-    # FIXME move to a FileUtils.move_admin_file or similar
+    # FIXME: move to a FileUtils.move_admin_file or similar
     def self.sanitize_install(source_path, new_path, command, dry_run: false)
       if source_path == new_path
         UI.important "sanitize_install does nothing if the path won't change (#{source_path})"
@@ -104,8 +104,7 @@ module U3d
       source_path = unity.root_path
       parent = File.expand_path('..', source_path)
       dir_name = format(long ? UNITY_DIR_LONG : UNITY_DIR,
-          {version: unity.version, build_number: unity.build_number}
-      )
+                        version: unity.version, build_number: unity.build_number)
       new_path = File.join(parent, dir_name)
 
       moved = move_file(source_path, new_path, dry_run: dry_run)
@@ -209,8 +208,7 @@ module U3d
       source_path = File.expand_path(unity.root_path)
       parent = File.expand_path('..', source_path)
       dir_name = format(long ? UNITY_DIR_LINUX_LONG : UNITY_DIR_LINUX,
-          {version: unity.version, build_number: unity.build_number}
-      )
+                        version: unity.version, build_number: unity.build_number)
       new_path = File.join(parent, dir_name)
 
       moved = move_file(source_path, new_path, dry_run: dry_run)
@@ -315,8 +313,7 @@ module U3d
       source_path = File.expand_path(unity.root_path)
       parent = File.expand_path('..', source_path)
       dir_name = format(long ? UNITY_DIR_LONG : UNITY_DIR,
-          {version: unity.version, build_number: unity.build_number}
-      )
+                        version: unity.version, build_number: unity.build_number)
       new_path = File.join(parent, dir_name)
 
       moved = move_file(source_path, new_path, dry_run: dry_run)
