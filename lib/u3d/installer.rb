@@ -32,10 +32,12 @@ module U3d
   DEFAULT_MAC_INSTALL = '/'.freeze
   DEFAULT_WINDOWS_INSTALL = 'C:/Program Files/'.freeze
   UNITY_DIR = "Unity_%<version>s".freeze
+  UNITY_DIR_LONG = "Unity_%<version>s_%<build_number>s".freeze
   UNITY_DIR_LINUX = "unity-editor-%<version>s".freeze
+  UNITY_DIR_LINUX_LONG = "unity-editor-%<version>s_%<build_number>s".freeze
 
   class Installer
-    def self.create
+    def self.create(skip_sanitize: false)
       installer = if Helper.mac?
                     MacInstaller.new
                   elsif Helper.linux?
@@ -43,7 +45,7 @@ module U3d
                   else
                     WindowsInstaller.new
                   end
-      sanitize_installs(installer)
+      sanitize_installs(installer) unless skip_sanitize
       installer
     end
 
@@ -98,10 +100,12 @@ module U3d
   end
 
   class MacInstaller
-    def sanitize_install(unity, dry_run: false)
+    def sanitize_install(unity, long: false, dry_run: false)
       source_path = unity.root_path
       parent = File.expand_path('..', source_path)
-      dir_name = format(UNITY_DIR, {version: unity.version})
+      dir_name = format(long ? UNITY_DIR_LONG : UNITY_DIR,
+          {version: unity.version, build_number: unity.build_number}
+      )
       new_path = File.join(parent, dir_name)
 
       moved = move_file(source_path, new_path, dry_run: dry_run)
@@ -201,10 +205,12 @@ module U3d
   end
 
   class LinuxInstaller
-    def sanitize_install(unity, dry_run: false)
+    def sanitize_install(unity, long: false, dry_run: false)
       source_path = File.expand_path(unity.root_path)
       parent = File.expand_path('..', source_path)
-      dir_name = format(UNITY_DIR_LINUX, {version: unity.version})
+      dir_name = format(long ? UNITY_DIR_LINUX_LONG : UNITY_DIR_LINUX,
+          {version: unity.version, build_number: unity.build_number}
+      )
       new_path = File.join(parent, dir_name)
 
       moved = move_file(source_path, new_path, dry_run: dry_run)
@@ -305,10 +311,12 @@ module U3d
   end
 
   class WindowsInstaller
-    def sanitize_install(unity, dry_run: false)
+    def sanitize_install(unity, long: false, dry_run: false)
       source_path = File.expand_path(unity.root_path)
       parent = File.expand_path('..', source_path)
-      dir_name = format(UNITY_DIR, {version: unity.version})
+      dir_name = format(long ? UNITY_DIR_LONG : UNITY_DIR,
+          {version: unity.version, build_number: unity.build_number}
+      )
       new_path = File.join(parent, dir_name)
 
       moved = move_file(source_path, new_path, dry_run: dry_run)

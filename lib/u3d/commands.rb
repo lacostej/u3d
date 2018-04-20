@@ -34,6 +34,7 @@ require 'u3d/unity_runner'
 require 'u3d_core/command_executor'
 require 'u3d_core/credentials'
 require 'fileutils'
+require 'pry'
 
 module U3d
   # API for U3d, redirecting calls to class they concern
@@ -79,6 +80,29 @@ module U3d
         catch(:IRB_EXIT) { @irb.eval_input }
       end
       # rubocop:enable Style/FormatStringToken
+
+      def move(args: {}, options: {})
+        long_name = options[:long]
+        UI.user_error! "move only supports long version name for now" unless long_name
+
+        version = args[0]
+        UI.user_error! "Please specify a Unity version" unless version
+        unity = check_unity_presence(version: version)
+        if (unity.nil?)
+          UI.message "Specified version '#{version}' not found."
+          return
+        end
+        if (unity.do_not_move?)
+          UI.error "Specified version is specicically marked as _do not move_."
+          return
+        end
+        # FIXME current API
+        Installer.create(skip_sanitize: true).sanitize_install(unity, long: true, dry_run: options[:dry_run])
+        # future API
+        #unity.sanitize_install(long: true, dry_run: options[:dry_run])
+
+        unity.do_not_move! unless options[:dry_run] # this may fail because of admin rights
+      end
 
       def list_available(options: {})
         ver = options[:unity_version]
@@ -330,7 +354,7 @@ module U3d
 
       def check_unity_presence(version: nil)
         # idea: we could support matching 5.3.6p3 if passed 5.3.6
-        installed = Installer.create.installed
+        installed = Installer.create(skip_sanitize: true).installed
         unity = installed.find { |u| u.version == version }
         if unity.nil?
           UI.verbose "Version #{version} of Unity is not installed yet"
