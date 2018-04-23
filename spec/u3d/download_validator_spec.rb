@@ -27,7 +27,7 @@ require 'u3d/unity_version_definition'
 describe U3d do
   describe U3d::DownloadValidator do
     describe '.hash_validation' do
-      before(:all) do
+      before(:each) do
         @validator = U3d::DownloadValidator.new
       end
 
@@ -64,7 +64,7 @@ describe U3d do
     end
 
     describe '.size_validation' do
-      before(:all) do
+      before(:each) do
         @validator = U3d::DownloadValidator.new
       end
 
@@ -102,7 +102,7 @@ describe U3d do
 
     describe U3d::LinuxValidator do
       describe '.validate' do
-        before(:all) do
+        before(:each) do
           @validator = U3d::LinuxValidator.new
         end
 
@@ -121,7 +121,7 @@ describe U3d do
         end
 
         context 'when an ini file is present' do
-          before(:all) do
+          before(:each) do
             @package = 'somepackage'
             @ini = { @package => { 'size' => 123_456 } }
           end
@@ -157,12 +157,12 @@ describe U3d do
 
     describe U3d::MacValidator do
       describe '.validate' do
-        before(:all) do
+        before(:each) do
           @validator = U3d::MacValidator.new
         end
 
         context 'when the ini file does not contain md5 (package is external)' do
-          before(:all) do
+          before(:each) do
             @package = 'somepackage'
             @ini = { @package => { 'size' => 123_456, 'md5' => nil } }
           end
@@ -189,7 +189,7 @@ describe U3d do
         end
 
         context 'when there is an ini file' do
-          before(:all) do
+          before(:each) do
             @package = 'somepackage'
             @ini = { @package => { 'size' => 123_456, 'md5' => 'somehash' } }
           end
@@ -235,12 +235,12 @@ describe U3d do
 
     describe U3d::WindowsValidator do
       describe '.validate' do
-        before(:all) do
+        before(:each) do
           @validator = U3d::WindowsValidator.new
         end
 
         context 'when the ini file does not contain md5 (package is external)' do
-          before(:all) do
+          before(:each) do
             @package = 'somepackage'
             @ini = { @package => { 'size' => 123_456, 'md5' => nil } }
           end
@@ -267,7 +267,7 @@ describe U3d do
         end
 
         context 'when there is an ini file' do
-          before(:all) do
+          before(:each) do
             @package = 'somepackage'
             @ini = { @package => { 'size' => 123_456, 'md5' => 'somehash' } }
           end

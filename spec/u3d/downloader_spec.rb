@@ -381,7 +381,7 @@ describe U3d do
     end
 
     describe U3d::Downloader::LinuxDownloader do
-      before(:all) do
+      before(:each) do
         @downloader = U3d::Downloader::LinuxDownloader.new
         @url = 'http://download.unity3d.com/download_unity/linux/unity-editor-installer-1.2.3f4+20160628.sh'
       end
@@ -439,7 +439,7 @@ describe U3d do
     end
 
     describe U3d::Downloader::MacDownloader do
-      before(:all) do
+      before(:each) do
         @downloader = U3d::Downloader::MacDownloader.new
 
         @url = 'http://download.unity3d.com/download_unity/d3101c3b8468/'
@@ -497,7 +497,7 @@ describe U3d do
     end
 
     describe U3d::Downloader::WindowsDownloader do
-      before(:all) do
+      before(:each) do
         @downloader = U3d::Downloader::WindowsDownloader.new
         @url = 'http://download.unity3d.com/download_unity/d3101c3b8468/'
         @path = 'Windows64EditorInstaller/UnitySetup64.exe'

@@ -27,12 +27,10 @@ require 'yaml'
 describe U3d do
   describe U3d::UnityProject do
     describe '#editor_version' do
-      before(:all) do
+      before(:each) do
         @config = { 'm_EditorVersion' => 'test' }
         @project = U3d::UnityProject.new('foo')
-      end
 
-      before(:each) do
         allow(File).to receive(:exist?) { true }
         allow(File).to receive(:read) { 'bar' }
         allow(YAML).to receive(:safe_load) { @config }
