@@ -1,0 +1,19 @@
+'/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/.bundle/ruby/2.7.0/bin/pod install' completed with code 1
+
+Analyzing dependencies
+Cloning spec repo `cocoapods-` from `https://cdn.cocoapods.org/`
+[!] Unable to add a source with url `https://cdn.cocoapods.org/` named `cocoapods-`.
+You can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.
+
+
+
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:124)
+Google.IOSResolver:Log (string,bool,Google.LogLevel) (at Z:/tmp/tmp.USiPupnd6F/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:1208)
+
+Unfortunately google use the generic Log method and this loses contextural information in the stack traces
+
+https://github.com/googlesamples/unity-jar-resolver/blob/master/source/IOSResolver/src/IOSResolver.cs#L1208

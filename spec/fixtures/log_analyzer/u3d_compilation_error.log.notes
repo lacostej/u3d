@@ -1,0 +1,43 @@
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path ""
+  at System.IO.Directory.Move (System.String sourceDirName, System.String destDirName) [0x000dd] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at DirectoryUtility.DirectoryMove (System.String sourceDirName, System.String destDirName) [0x0004d] in /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/Packa
+geCache/com.unity.addressables@1.18.9/Editor/Build/DirectoryUtility.cs:39 
+  at AddressablesPlayerBuildProcessor.CleanTemporaryPlayerBuildData () [0x00010] in /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.addr
+essables@1.18.9/Editor/Build/AddressablesPlayerBuildProcessor.cs:34 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.Cu
+ltureInfo culture) [0x00032] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.Cu
+ltureInfo culture) [0x00048] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
+
+bug to report
+
+
+
+
+but this one we should detect:
+
+Found plugins with same names, Assets/Plugins/Android/com.amplitude.android-sdk-2.34.1.aar and Packages/com.amplitude.unityplugin/Plugins/Android/com.amplitude.android-sdk-2.34.1.aar. Delete the one of the duplicate plugins.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AndroidPluginImporterExtension:CheckFileCollisions (string)
+UnityEditorInternal.PluginsHelper:CheckFileCollisions (UnityEditor.BuildTarget) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Plugins/PluginsHelper.cs:25)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:396)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:269)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:264)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:559)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:244)
+ 

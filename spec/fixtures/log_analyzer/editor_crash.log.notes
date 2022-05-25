@@ -1,0 +1,37 @@
+This is an error:
+
+The file '/Users/adminwwtk/Library/Caches/com.unity3d.UnityEditor/GiCache/8f/8f34195abf7888391aaeeee42e6b65b5.LightingData.asset' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:422)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:321)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:290)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:561)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:244)
+
+this Fatal Error should also bubble up
+
+Fatal Error! The file '/Users/adminwwtk/Library/Caches/com.unity3d.UnityEditor/GiCache/8f/8f34195abf7888391aaeeee42e6b65b5.LightingData.asset' is corrupted! Remove it and launch unity again!
+
+
+
+The crash as well
+
+Obtained 68 stack frames.
+#0  0x007ff81788f112 in __pthread_kill
+#1  0x007ff817811d10 in abort
+#2  0x0000010b2c6a6e in CrashDontLaunchBugReporter()
+#3  0x00000108f444b7 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry const&)
+#4  0x00000108f4388c in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x00000108f4524e in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x0000010ad10edd in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x0000010ad117c3 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000107d0a64d in CachedReader::OutOfBoundsError(unsigned long, unsigned long)
+#9  0x00000107d0abec in CachedReader::UpdateReadCache(void*, unsigned long)
+#10 0x000001074a6e06 in void LightProbeOcclusion::Transfer<StreamedBinaryRead>(StreamedBinaryRead&)
+#11 0x000001074a6dab in void StreamedBinaryRead::TransferSTLStyleArray<dynamic_array<LightProbeOcclusion, 0ul> >(dynamic_array<LightProbeOcclusion, 0ul>&, TransferMetaFlags)
+#12 0x00000107492ae5 in LightProbes::VirtualRedirectTransfer(StreamedBinaryRead&)
+#13 0x00000108546554 in SerializedFile::ReadObject(long long, ObjectCreationMode, bool, TypeTree const**, bool*, Object&)
+#14 0x000001084f4e5a in PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, 

@@ -1,0 +1,220 @@
+Unity Editor version:    2019.4.31f1 (bd5abf232a62)
+Branch:                  2019.4/staging
+Build type:              Debug
+Batch mode:              YES
+macOS version:           Version 10.16 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-adminwwtk
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+[Licensing::Module] Serial number assigned to: "SB-FNES-JATA-KCMB-YYYY-XXXX"\nPro License: YES
+
+LICENSE SYSTEM [2022519 9:35:49] Next license update check is after 2022-05-19T13:10:30
+
+
+LICENSE SYSTEM [2022519 9:35:49] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 53226 was selected
+Launching external process: /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity_2019.4.31f1/Unity.app/Contents/MacOS/Unity
+-logFile
+/Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/u3d.log
+-projectPath
+/Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios
+-quit
+-batchmode
+-accept-apiupdate
+-buildTarget
+ios
+-executeMethod
+WWTK.SimpleBuild.PerformIOSBuild
+-username
+xxxxx@sssssss.com
+-password
+(hidden)
+-ignoreCompilerErrors
+Successfully changed project path to: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios
+/Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios
+Using Asset Import Pipeline V1.
+DisplayProgressbar: Unity Package Manager
+Loading GUID <-> Path mappings...0.000042 seconds
+Loading Asset Database...0.020259 seconds
+AssetDatabase consistency checks...0.056941 seconds
+Adding genesis user token [Package Manager] Done resolving packages in 0.49s seconds
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 34 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.addressables@1.18.9 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9)
+    com.unity.ide.rider@1.1.4 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.ide.rider@1.1.4)
+    com.unity.ide.vscode@1.2.5 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.ide.vscode@1.2.5)
+    com.unity.localization@1.0.0-pre.9 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.localization@1.0.0-pre.9)
+    com.unity.nuget.newtonsoft-json@2.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0)
+    com.unity.purchasing@4.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.purchasing@4.0.0)
+    com.unity.test-framework@1.1.14 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.test-framework@1.1.14)
+    com.unity.textmeshpro@2.0.1 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.textmeshpro@2.0.1)
+    com.unity.ext.nunit@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.ext.nunit@1.0.0)
+    com.unity.services.core@1.0.1 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.services.core@1.0.1)
+    com.unity.scriptablebuildpipeline@1.19.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.2d.sprite@1.0.0)
+    com.unity.ugui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.ugui@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.audio@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.uielements@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.video@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.modules.video@1.0.0)
+  Git packages:
+    com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.2.5 (location: /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.cysharp.unitask@72e620d169)
+
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00s seconds
+Targeting platform: ios
+Refreshing native plugins compatible for Editor in 18.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.31f1 (bd5abf232a62)
+[Subsystems] Discovering subsystems at path /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-19 09:35:51.091 Unity[27608:5573591] (null) preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-05-19 09:35:51.091 Unity[27608:5573591] Metal devices available: 1
+2022-05-19 09:35:51.092 Unity[27608:5573591] 0: Intel(R) UHD Graphics 630 (low power)
+2022-05-19 09:35:51.092 Unity[27608:5573591] Using device Intel(R) UHD Graphics 630 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 630
+Initialize mono
+Mono path[0] = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity_2019.4.31f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.012411 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.407 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2433ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (99ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Registering precompiled user dll's ...
+Registered in 0.131365 seconds.
+Platform modules already initialized, skipping
+Validating Project structure ... 0.037357 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Begin MonoManager ReloadAssembly
+
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+Refresh Completed time: 0.105512s
+	Asset Scan time: 0.099986s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+DisplayProgressbar: Processing Addressable Group
+Adding genesis user token Uploading Crash Report
+ArgumentException: An item with the same key has already been added. Key: a66ebc70376184168be1b2607004f74a
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.Build.Pipeline.BundleBuildContent..ctor (System.Collections.Generic.IEnumerable`1[T] bundleBuilds) [0x00159] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.0/Editor/Shared/BuildContent.cs:161 
+  at UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode.DoBuild[TResult] (UnityEditor.AddressableAssets.Build.AddressablesDataBuilderInput builderInput, UnityEditor.AddressableAssets.Build.DataBuilders.AddressableAssetsBuildContext aaContext) [0x0012c] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Build/DataBuilders/BuildScriptPackedMode.cs:219 
+  at UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode.BuildDataImplementation[TResult] (UnityEditor.AddressableAssets.Build.AddressablesDataBuilderInput builderInput) [0x00079] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Build/DataBuilders/BuildScriptPackedMode.cs:77 
+  at UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptBase.BuildData[TResult] (UnityEditor.AddressableAssets.Build.AddressablesDataBuilderInput builderInput) [0x0009b] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Build/DataBuilders/BuildScriptBase.cs:89 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.BuildPlayerContentImpl () [0x00034] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Settings/AddressableAssetSettings.cs:2144 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.BuildPlayerContent (UnityEditor.AddressableAssets.Build.AddressablesPlayerBuildResult& result) [0x000d9] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Settings/AddressableAssetSettings.cs:2126 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.BuildPlayerContent () [0x00001] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Settings/AddressableAssetSettings.cs:2093 
+  at WWTK.BuildAddressablesPreprocess.BuildAddressables (UnityEditor.BuildTarget target, System.String target_dir) [0x00016] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/Editor/BuildAddressablesPreprocess.cs:18 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at WWTK.SimpleBuild.RunPreprocesses (System.String target_dir, UnityEditor.BuildTarget build_target) [0x000df] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:697 
+  at WWTK.SimpleBuild.PreProcess (System.String target_dir, UnityEditor.BuildTarget build_target) [0x0002c] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:589 
+  at WWTK.SimpleBuild.GenericBuild (System.String target_dir, UnityEditor.BuildTarget build_target, UnityEditor.BuildOptions build_options, System.Boolean override_options) [0x0002d] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:547 
+  at WWTK.SimpleBuild.PerformIOSBuild () [0x0001c] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:237 
+ 
+(Filename: <eae584ce26bc40229c1b1aa476bfa589> Line: 0)
+
+executeMethod method WWTK.SimpleBuild.PerformIOSBuild threw exception. 
+(Filename: ./Runtime/Utilities/Argv.cpp Line: 376)
+
+[Package Manager] Server::Kill -- Server was shutdown

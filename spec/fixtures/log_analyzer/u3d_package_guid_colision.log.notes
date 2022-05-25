@@ -1,0 +1,5 @@
+GUID [0dfc95684913b4907aa3a28ca02d8a4d] for asset 'Packages/com.dragonbox.apps-installed/Runtime/Plugins' conflicts with:
+  'Assets/UPackages/wwtk.AppsInstalled~0.0.3/Plugins' (current owner)
+We can't assign a new GUID because the asset is in an immutable folder. The asset will be ignored.
+
+all over the place

@@ -1,0 +1,566 @@
+Unity Editor version:    2019.4.31f1 (bd5abf232a62)
+Branch:                  2019.4/staging
+Build type:              Debug
+Batch mode:              YES
+macOS version:           Version 10.16 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-adminwwtk
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+[Licensing::Module] Serial number assigned to: "SB-FNES-JATA-KCMB-YYYY-XXXX"\nPro License: YES
+
+LICENSE SYSTEM [2022519 10:52:26] Next license update check is after 2022-05-20T08:52:26
+
+
+LICENSE SYSTEM [2022519 10:52:26] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 54043 was selected
+Launching external process: /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity_2019.4.31f1/Unity.app/Contents/MacOS/Unity
+-logFile
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/u3d.log
+-projectPath
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android
+-quit
+-batchmode
+-accept-apiupdate
+-buildTarget
+android
+-executeMethod
+WWTK.SimpleBuild.PerformAndroidBuild
+-username
+xxxxx@sssssss.com
+-password
+(hidden)
+-ignoreCompilerErrors
+Successfully changed project path to: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android
+Using Asset Import Pipeline V2.
+DisplayProgressbar: Unity Package Manager
+Rebuilding Library because the asset database could not be found!
+Adding genesis user token [Package Manager] Done resolving packages in 4.34s seconds
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 37 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.addressables@1.18.9 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.addressables@1.18.9)
+    com.unity.ide.rider@1.1.4 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.ide.rider@1.1.4)
+    com.unity.ide.vscode@1.2.3 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.ide.vscode@1.2.3)
+    com.unity.localization@1.0.0-pre.9 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.localization@1.0.0-pre.9)
+    com.unity.memoryprofiler@0.2.9-preview.3 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.memoryprofiler@0.2.9-preview.3)
+    com.unity.nuget.newtonsoft-json@2.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0)
+    com.unity.purchasing@4.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.purchasing@4.0.0)
+    com.unity.test-framework@1.1.16 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.test-framework@1.1.16)
+    com.unity.ext.nunit@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.ext.nunit@1.0.0)
+    com.unity.services.core@1.0.1 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.services.core@1.0.1)
+    com.unity.editorcoroutines@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.editorcoroutines@1.0.0)
+    com.unity.scriptablebuildpipeline@1.19.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.2d.sprite@1.0.0)
+    com.unity.ugui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.ugui@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.audio@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.uielements@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.video@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.unity.modules.video@1.0.0)
+  Git packages:
+    com.amplitude.unityplugin@https://github.com/amplitude/unity-plugin.git?path=/Assets#v2.4.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.amplitude.unityplugin@636abb218d)
+    com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.2.5 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.cysharp.unitask@72e620d169)
+    com.dragonbox.google.google-signin-plugin@ssh://git@bitbucket.org/WeWantToKnow/googlesigninunity.git?path=Assets/Export#upm (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/com.dragonbox.google.google-signin-plugin@31d3546ad8)
+
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.06s seconds
+Targeting platform: android
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.31f1 (bd5abf232a62)
+[Subsystems] Discovering subsystems at path /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-19 10:52:31.763 Unity[50637:5708329] (null) preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-05-19 10:52:31.763 Unity[50637:5708329] Metal devices available: 1
+2022-05-19 10:52:31.763 Unity[50637:5708329] 0: Intel(R) UHD Graphics 630 (low power)
+2022-05-19 10:52:31.763 Unity[50637:5708329] Using device Intel(R) UHD Graphics 630 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 630
+Initialize mono
+Mono path[0] = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56637
+ImportWorker Server TCP listen port: 54062
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity_2019.4.31f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.015784 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3415ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (275ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Registering precompiled user dll's ...
+Registered in 0.282972 seconds.
+Platform modules already initialized, skipping
+Validating Project structure ... 0.094971 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.111889 seconds.
+A meta data file (.meta) exists but its asset 'Assets/Family' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/FilteredFileIterationState.cpp Line: 78)
+
+
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 299.787431 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport)
+RefreshProfiler: Total: 299787.407ms
+	InvokeBeforeRefreshCallbacks: 0.349ms
+	ApplyChangesToAssetFolders: 0.079ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 323.135ms
+	OnSourceAssetsModified: 0.000ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 14.069ms
+	GetAllGuidsForCategorization: 0.579ms
+	CategorizeAssets: 390.910ms
+	ImportAndPostprocessOutOfDateAssets: 298259.060ms (1097.479ms without children)
+		ImportManagerImport: 293349.156ms (263.000ms without children)
+			ImportInProcess: 293047.544ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 38.612ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 3741.830ms
+		ReloadImportedAssets: 4.777ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.425ms
+		InitializingProgressBar: 0.002ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 2.057ms
+		OnDemandSchedulerStart: 2.935ms
+		RestoreLoadedAssetsState: 15.297ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 44.103ms
+	ReloadSourceAssets: 1.562ms
+	UnloadImportedAssets: 0.295ms
+	Hotreload: 709.360ms
+	FixTempGuids: 0.020ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.966ms
+	UnloadStreamsBegin: 0.032ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 5.798ms
+	GetLoadedSourceAssetsSnapshot: 30.101ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 44.580ms
+	GenerateScriptTypeHashes: 13.692ms
+	Untracked: 6.513ms
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport)
+RefreshProfiler: Total: 50.555ms
+	InvokeBeforeRefreshCallbacks: 0.206ms
+	ApplyChangesToAssetFolders: 0.059ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 2.933ms
+	OnSourceAssetsModified: 0.000ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 26.011ms
+	GetAllGuidsForCategorization: 0.000ms
+	CategorizeAssets: 0.000ms
+	ImportAndPostprocessOutOfDateAssets: 0.000ms (0.000ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.000ms
+		RestoreLoadedAssetsState: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.000ms
+	Hotreload: 0.023ms
+	FixTempGuids: 0.011ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.267ms
+	UnloadStreamsBegin: 0.090ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 7.127ms
+	GetLoadedSourceAssetsSnapshot: 7.645ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.095ms
+	GenerateScriptTypeHashes: 0.000ms
+	Untracked: 5.086ms
+Refresh completed in 0.443565 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 443.555ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.041ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 244.897ms
+	OnSourceAssetsModified: 0.000ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 38.805ms
+	GetAllGuidsForCategorization: 0.518ms
+	CategorizeAssets: 105.037ms
+	ImportAndPostprocessOutOfDateAssets: 26.494ms (6.640ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.219ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.610ms
+		OnDemandSchedulerStart: 0.642ms
+		RestoreLoadedAssetsState: 16.383ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 6.582ms
+	UnloadImportedAssets: 1.136ms
+	Hotreload: 0.036ms
+	FixTempGuids: 0.010ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.964ms
+	UnloadStreamsBegin: 0.106ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 4.998ms
+	GetLoadedSourceAssetsSnapshot: 25.633ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.096ms
+	GenerateScriptTypeHashes: 0.000ms
+	Untracked: -11.800ms
+
+Refreshing native plugins compatible for Editor in 2.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 206.739ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.044ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 2.494ms
+	OnSourceAssetsModified: 0.077ms
+	UnregisterDeletedAssets: 0.002ms
+	InitializeImportedAssetsSnapshot: 6.096ms
+	GetAllGuidsForCategorization: 0.581ms
+	CategorizeAssets: 6.120ms
+	ImportAndPostprocessOutOfDateAssets: 176.054ms (4.493ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 154.206ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.857ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.707ms
+		OnDemandSchedulerStart: 0.612ms
+		RestoreLoadedAssetsState: 3.042ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 11.139ms
+	ReloadSourceAssets: 1.136ms
+	UnloadImportedAssets: 0.311ms
+	Hotreload: 5.468ms
+	FixTempGuids: 0.009ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.009ms
+	UnloadStreamsBegin: 0.099ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.154ms
+	GetLoadedSourceAssetsSnapshot: 7.320ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.087ms
+	GenerateScriptTypeHashes: 0.000ms
+	Untracked: -1.322ms
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'ProjectSettings/GraphicsSettings.asset' (target hash: '9df002e28d28cf35649f2fb057312a3b') in 0.002085 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 56.155ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.044ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 1.963ms
+	OnSourceAssetsModified: 0.038ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 6.421ms
+	GetAllGuidsForCategorization: 0.621ms
+	CategorizeAssets: 5.469ms
+	ImportAndPostprocessOutOfDateAssets: 26.047ms (2.543ms without children)
+		ImportManagerImport: 4.474ms (2.200ms without children)
+			ImportInProcess: 2.259ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.015ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 6.496ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.854ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.578ms
+		OnDemandSchedulerStart: 1.073ms
+		RestoreLoadedAssetsState: 3.326ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 5.701ms
+	ReloadSourceAssets: 0.998ms
+	UnloadImportedAssets: 0.271ms
+	Hotreload: 5.178ms
+	FixTempGuids: 0.009ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.981ms
+	UnloadStreamsBegin: 0.095ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.133ms
+	GetLoadedSourceAssetsSnapshot: 6.419ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 0.130ms
+	GenerateScriptTypeHashes: 0.000ms
+	Untracked: 0.338ms
+DisplayProgressbar: Checking prerequisites
+Android PostProcess task "Checking prerequisites" took 7.557 ms
+DisplayProgressbar: Detect Java Development Kit (JDK)
+Android PostProcess task "Detect Java Development Kit (JDK)" took 107.5119 ms
+DisplayProgressbar: Detecting Android SDK
+AndroidSDKTools:
+
+	root          : /Applications/android-sdk-macosx
+	tools         : /Applications/android-sdk-macosx/tools
+	platform-tools: /Applications/android-sdk-macosx/platform-tools
+	build-tools   : /Applications/android-sdk-macosx/build-tools/29.0.2
+
+	adb           : /Applications/android-sdk-macosx/platform-tools/adb
+
+Android PostProcess task "Detecting Android SDK" took 2450.5176 ms
+DisplayProgressbar: Detect Android NDK
+Android PostProcess task "Detect Android NDK" took 22.5659 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0.7225 ms
+[ScriptCompilation] Recompiling all scripts because: Recompiling scripts for player build.
+BuildPlayer: start building target 13
+Assembly for Assembly Definition File 'Packages/com.amplitude.unityplugin/Plugins/AmplitudeSDKPlugins.asmdef' will not be compiled, because it has no scripts associated with it.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:CompileScripts (UnityEditor.Scripting.ScriptCompilation.ScriptAssemblySettings,string,UnityEditor.Scripting.ScriptCompilation.EditorScriptCompilationOptions,UnityEditor.Scripting.ScriptCompilation.CompilationTaskOptions,UnityEditor.Scripting.ScriptCompilation.EditorBuildRules/TargetAssembly[]&,string[]&) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:1606)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:CompileScripts (UnityEditor.Scripting.ScriptCompilation.EditorScriptCompilationOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.Scripting.ScriptCompilation.CompilationTaskOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:1531)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface/<>c__DisplayClass40_0:<CompileScripts>b__0 () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:341)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionAsError<UnityEditor.Scripting.ScriptCompilation.EditorCompilation/CompileStatus> (System.Func`1<UnityEditor.Scripting.ScriptCompilation.EditorCompilation/CompileStatus>,UnityEditor.Scripting.ScriptCompilation.EditorCompilation/CompileStatus) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:104)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:CompileScripts (UnityEditor.Scripting.ScriptCompilation.EditorScriptCompilationOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:341)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:396)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:269)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:264)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:559)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:244)
+ 
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+- Starting script compilation
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 1.561524 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 1.688827 seconds
+- Starting compile Library/PlayerScriptAssemblies/UniRx.dll
+- Starting compile Library/PlayerScriptAssemblies/AmplitudeSDKCore.dll
+- Starting compile Library/PlayerScriptAssemblies/UniTask.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.ResourceManager.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.013.dll
+- Starting compile Library/PlayerScriptAssemblies/DragonBox.GoogleSignIn.dll
+- Starting compile Library/PlayerScriptAssemblies/Google.Play.Common.dll
+- Starting compile Library/PlayerScriptAssemblies/Purchasing.Common.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll
+- Starting compile Library/PlayerScriptAssemblies/Google.Play.Core.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.MemoryProfiler.dll
+- Finished compile Library/PlayerScriptAssemblies/DragonBox.GoogleSignIn.dll in 3.40499 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.ScriptableBuildPipeline.dll
+- Finished compile Library/PlayerScriptAssemblies/AmplitudeSDKCore.dll in 3.658021 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.ResourceManager.dll in 3.566979 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.013.dll in 3.526167 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.Addressables.dll
+- Finished compile Library/PlayerScriptAssemblies/Google.Play.Common.dll in 3.514472 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTCore.dll in 3.394205 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll
+- Finished compile Library/PlayerScriptAssemblies/Google.Play.Core.dll in 3.341011 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll in 3.280562 seconds
+- Starting compile Library/PlayerScriptAssemblies/Google.Play.Review.dll
+- Finished compile Library/PlayerScriptAssemblies/UniRx.dll in 3.940191 seconds
+- Finished compile Library/PlayerScriptAssemblies/UniTask.dll in 3.858349 seconds
+- Starting compile Library/PlayerScriptAssemblies/UniTask.Linq.dll
+- Starting compile Library/PlayerScriptAssemblies/UniTask.TextMeshPro.dll
+- Starting compile Library/PlayerScriptAssemblies/UniTask.DOTween.dll
+- Starting compile Library/PlayerScriptAssemblies/UniTask.Addressables.dll
+- Finished compile Library/PlayerScriptAssemblies/Purchasing.Common.dll in 3.849813 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.MemoryProfiler.dll in 3.475995 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Security.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll
+- Finished compile Library/PlayerScriptAssemblies/UniTask.TextMeshPro.dll in 2.005015 seconds
+- Finished compile Library/PlayerScriptAssemblies/UniTask.DOTween.dll in 2.02937 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.WinRTStub.dll in 2.424187 seconds
+- Finished compile Library/PlayerScriptAssemblies/Google.Play.Review.dll in 2.799056 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.ScriptableBuildPipeline.dll in 3.069044 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.Addressables.dll in 3.015628 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.Localization.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleCore.dll in 2.620194 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Security.dll in 2.804773 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.dll in 2.890397 seconds
+- Finished compile Library/PlayerScriptAssemblies/UniTask.Addressables.dll in 3.277215 seconds
+- Finished compile Library/PlayerScriptAssemblies/UniTask.Linq.dll in 3.557899 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll in 1.523658 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll in 1.532808 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll
+- Finished compile Library/PlayerScriptAssemblies/Unity.Localization.dll in 1.960386 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Stores.dll in 1.709884 seconds
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll in 1.524621 seconds
+- Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll in 1.590245 seconds
+- Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 2.566529 seconds
+- Finished script compilation in 18.015679 seconds
+Assets/Plugins/UniRXExtension/ObservableWebRequest.cs(578,20): warning CS0618: 'UnityWebRequest.Send()' is obsolete: 'Use SendWebRequest.  It returns a UnityWebRequestAsyncOperation which contains a reference to the WebRequest object.'
+Found plugins with same names, Assets/Plugins/Android/com.amplitude.android-sdk-2.34.1.aar and Packages/com.amplitude.unityplugin/Plugins/Android/com.amplitude.android-sdk-2.34.1.aar. Delete the one of the duplicate plugins.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AndroidPluginImporterExtension:CheckFileCollisions (string)
+UnityEditorInternal.PluginsHelper:CheckFileCollisions (UnityEditor.BuildTarget) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Plugins/PluginsHelper.cs:25)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:396)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:269)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:264)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:559)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:244)
+ 
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+Plugins colliding with each other.
+Unloading 77 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 508.4 MB.
+System memory in use after: 508.9 MB.
+
+Unloading 264 unused Assets to reduce memory usage. Loaded Objects now: 5310.
+Total: 15.639726 ms (FindLiveObjects: 0.595056 ms CreateObjectMapping: 0.329734 ms MarkObjects: 14.399538 ms  DeleteObjects: 0.314719 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.893 ms
+	Integration:            39.115 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       19.671 ms
+	Total Operation Time:   59.685 ms
+System memory in use before: 505.9 MB.
+System memory in use after: 506.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 4296.
+Total: 12.082371 ms (FindLiveObjects: 0.453218 ms CreateObjectMapping: 0.192605 ms MarkObjects: 11.401054 ms  DeleteObjects: 0.034754 ms)
+
+Uploading Crash Report
+Exception: BuildPlayer failure: New Report (UnityEngine.BuildReport)
+  at WWTK.SimpleBuild.GenericBuild (System.String target_dir, UnityEditor.BuildTarget build_target, UnityEditor.BuildOptions build_options, System.Boolean override_options) [0x000b5] in /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:566 
+  at WWTK.SimpleBuild.PerformGenericAndroidBuild (System.Boolean _useApkExpansionFiles) [0x00167] in /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:300 
+  at WWTK.SimpleBuild.PerformAndroidBuild () [0x00001] in /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:244 
+ 
+(Filename: Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs Line: 566)
+
+executeMethod method WWTK.SimpleBuild.PerformAndroidBuild threw exception. 
+(Filename: ./Runtime/Utilities/Argv.cpp Line: 376)
+
+[Package Manager] Server::Kill -- Server was shutdown

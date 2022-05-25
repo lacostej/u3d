@@ -1,0 +1,51 @@
+Unity Editor version:    2019.4.31f1 (bd5abf232a62)
+Branch:                  2019.4/staging
+Build type:              Debug
+Batch mode:              YES
+macOS version:           Version 10.16 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-adminwwtk
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+[Licensing::Module] Serial number assigned to: "SB-FNES-JATA-KCMB-YYYY-XXXX"\nPro License: YES
+
+LICENSE SYSTEM [2022520 16:48:4] Next license update check is after 2022-05-20T18:25:51
+
+
+LICENSE SYSTEM [2022520 16:48:4] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 51892 was selected
+Launching external process: /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity_2019.4.31f1/Unity.app/Contents/MacOS/Unity
+-logFile
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/u3d.log
+-projectPath
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android
+-quit
+-batchmode
+-accept-apiupdate
+-buildTarget
+android
+-executeMethod
+WWTK.SimpleBuild.PerformAndroidBuild
+-username
+xxxxx@sssssss.com
+-password
+(hidden)
+-ignoreCompilerErrors
+Successfully changed project path to: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android
+Using Asset Import Pipeline V2.
+DisplayProgressbar: Unity Package Manager
+Adding genesis user token [Package Manager] Done resolving packages in 5.39s seconds
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.dragonbox.oauth-async: The file [/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/@f2c9a21d1a/package.json] is not valid JSON:
+      Unexpected token "," (0x2C) in JSON at position 573 while parsing near "...com.dragonbox.oauth\",\n        \"com.cysha..."
+
+A re-import of the project may be required to fix the issue or a manual modification of /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Packages/manifest.json file.
+[Package Manager] Server::Kill -- Server was shutdown

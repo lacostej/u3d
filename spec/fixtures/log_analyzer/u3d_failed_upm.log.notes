@@ -1,0 +1,6 @@
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.dragonbox.oauth-async: The file [/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_android/Library/PackageCache/@f2c9a21d1a/package.json] is not valid JSON:
+      Unexpected token "," (0x2C) in JSON at position 573 while parsing near "...com.dragonbox.oauth\",\n        \"com.cysha..."
+
+this should bubble up

@@ -1,0 +1,743 @@
+[LicensingClient] Error "0x8000000a" attempting to connect to the Licensing Client on pipe: "LicenseClient-adminwwtk"
+[Licensing::Module] Error: Failed to connect to channel: "LicenseClient-adminwwtk"
+[LicensingClient] Error "0x8000000a" attempting to connect to the Licensing Client on pipe: "LicenseClient-adminwwtk-2020.3.12"
+[Licensing::Module] Error: Failed to connect to channel: "LicenseClient-adminwwtk-2020.3.12"
+IPC channel to LicensingClient doesn't exist; falling back to Legacy licensing
+
+LICENSE SYSTEM [2022513 0:48:4] Next license update check is after 2022-05-13T13:17:06
+
+
+LICENSE SYSTEM [2022513 0:48:4] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 52729 was selected
+Launching external process: /Applications/Unity_2020.3.12f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity_2020.3.12f1/Unity.app/Contents/MacOS/Unity
+-logFile
+/Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/u3d.log
+-projectPath
+/Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android
+-quit
+-batchmode
+-accept-apiupdate
+-buildTarget
+android
+-executeMethod
+WWTK.SimpleBuild.PerformAndroidBuild
+-username
+xxxxx@sssssss.com
+-password
+(hidden)
+-ignoreCompilerErrors
+Successfully changed project path to: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android
+/Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android
+Using Asset Import Pipeline V2.
+[Package Manager] Restoring resolved packages state from cache
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 51 packages:
+  Packages from [https://package.openupm.com]:
+    com.cysharp.unitask@2.2.5 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.cysharp.unitask@2.2.5)
+    com.demigiant.dotween@1.2.42 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.demigiant.dotween@1.2.42)
+  Packages from [https://packages.unity.com]:
+    com.unity.barracuda@2.1.0-preview (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.barracuda@2.1.0-preview)
+    com.unity.ide.rider@2.0.7 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.ide.rider@2.0.7)
+    com.unity.ide.vscode@1.2.3 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.ide.vscode@1.2.3)
+    com.unity.mathematics@1.2.1 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.mathematics@1.2.1)
+    com.unity.memoryprofiler@0.2.8-preview.2 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.memoryprofiler@0.2.8-preview.2)
+    com.unity.test-framework@1.1.24 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.test-framework@1.1.24)
+    com.unity.textmeshpro@3.0.6 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.textmeshpro@3.0.6)
+    com.unity.nuget.newtonsoft-json@3.0.2 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2)
+    com.unity.ext.nunit@1.0.6 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.ext.nunit@1.0.6)
+    com.unity.editorcoroutines@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.editorcoroutines@1.0.0)
+    com.unity.burst@1.6.0-pre.2 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.burst@1.6.0-pre.2)
+  Packages from [https://registry.npmjs.org]:
+    com.unity.uiextensions@2.2.4 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.uiextensions@2.2.4)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.2d.sprite@1.0.0)
+    com.unity.ugui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.subsystems@1.0.0)
+    com.unity.modules.uielementsnative@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0)
+  Git packages:
+    com.gwaredd.unium@https://github.com/DragonBox/unium.git#stable_school (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.gwaredd.unium@083cc8f40d)
+    com.oddworm.heapexplorer@https://github.com/pschraut/UnityHeapExplorer.git#3.6.0 (location: /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Library/PackageCache/com.oddworm.heapexplorer@eb99a628cb)
+
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.03s seconds
+Targeting platform: android
+Refreshing native plugins compatible for Editor in 310.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path /Applications/Unity_2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/adminwwtk/jenkins/workspace/game_GymDev-dev2021_android/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-13 00:48:05.948 Unity[15577:807187] (null) preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-05-13 00:48:05.948 Unity[15577:807187] Metal devices available: 1
+2022-05-13 00:48:05.948 Unity[15577:807187] 0: Intel(R) UHD Graphics 630 (low power)
+2022-05-13 00:48:05.948 Unity[15577:807187] Using device Intel(R) UHD Graphics 630 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 630
+Initialize mono
+Mono path[0] = '/Applications/Unity_2020.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity_2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity_2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56577
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity_2020.3.12f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2020.3.12f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.010353 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 307.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.995 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.989173 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.884425 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+Registering precompiled user dll's ...
+Registered in 0.015784 seconds.
+AssetDatabase: script compilation time: 0.037168s
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 299.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Using Uplift version 1.0.0beta18
+
+Initialize
+
+Mono: successfully reloaded assembly
+- Completed reload, in 11.738 seconds
+Platform modules already initialized, skipping
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 15465.862ms
+	InvokeBeforeRefreshCallbacks: 0.351ms
+	ApplyChangesToAssetFolders: 0.050ms
+	Scan: 1222.389ms
+	OnSourceAssetsModified: 0.002ms
+	InitializeImportedAssetsSnapshot: 0.343ms
+	GetAllGuidsForCategorization: 3.454ms
+	CategorizeAssets: 298.494ms
+	ImportAndPostprocessOutOfDateAssets: 13895.075ms (13853.444ms without children)
+		CompileScripts: 37.746ms
+		PostProcessAllAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.642ms
+		InitializingProgressBar: 0.004ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 1.112ms
+		RestoreLoadedAssetsState: 0.126ms
+	ReloadSourceAssets: 1.226ms
+	UnloadImportedAssets: 0.023ms
+	Hotreload: 0.579ms
+	FixTempGuids: 0.004ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.877ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.029ms
+	GetLoadedSourceAssetsSnapshot: 0.203ms
+	PersistCurrentRevisions: 5.749ms
+	UnloadStreamsEnd: 21.506ms
+	GenerateScriptTypeHashes: 0.169ms
+	Untracked: 15.507ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Refresh completed in 0.737797 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 737.789ms
+	InvokeBeforeRefreshCallbacks: 1.129ms
+	ApplyChangesToAssetFolders: 0.059ms
+	Scan: 409.641ms
+	OnSourceAssetsModified: 0.000ms
+	InitializeImportedAssetsSnapshot: 13.379ms
+	GetAllGuidsForCategorization: 1.843ms
+	CategorizeAssets: 273.819ms
+	ImportAndPostprocessOutOfDateAssets: 17.889ms (3.658ms without children)
+		PostProcessAllAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 6.537ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 2.298ms
+		OnDemandSchedulerStart: 1.722ms
+		RestoreLoadedAssetsState: 3.672ms
+	ReloadSourceAssets: 1.564ms
+	UnloadImportedAssets: 0.768ms
+	Hotreload: 0.022ms
+	FixTempGuids: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.512ms
+	UnloadStreamsBegin: 0.202ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 2.051ms
+	GetLoadedSourceAssetsSnapshot: 5.515ms
+	PersistCurrentRevisions: 1.565ms
+	UnloadStreamsEnd: 0.184ms
+	GenerateScriptTypeHashes: 16.024ms
+	Untracked: 6.641ms
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 4.101ms
+Refresh completed in 0.707816 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 707.808ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.060ms
+	Scan: 397.427ms
+	OnSourceAssetsModified: 0.001ms
+	InitializeImportedAssetsSnapshot: 13.656ms
+	GetAllGuidsForCategorization: 1.744ms
+	CategorizeAssets: 261.768ms
+	ImportAndPostprocessOutOfDateAssets: 14.631ms (1.711ms without children)
+		PostProcessAllAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 5.879ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 2.300ms
+		OnDemandSchedulerStart: 1.517ms
+		RestoreLoadedAssetsState: 3.223ms
+	ReloadSourceAssets: 1.684ms
+	UnloadImportedAssets: 0.565ms
+	Hotreload: 0.046ms
+	FixTempGuids: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.384ms
+	UnloadStreamsBegin: 0.194ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 2.432ms
+	GetLoadedSourceAssetsSnapshot: 4.869ms
+	PersistCurrentRevisions: 1.535ms
+	UnloadStreamsEnd: 0.154ms
+	Untracked: 5.654ms
+Launching external process: /Applications/Unity_2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+Method AlgoCodeNodeCreatorWizard.CreateWizard has invalid parameters. MenuCommand is the only optional supported parameter.
+
+2022-05-13 00:48:31.930 Unity[15577:807187] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001cf5f10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-05-13 00:48:31.947 Unity[15577:807187] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001c112d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 1909 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 464.3 MB.
+System memory in use after: 422.7 MB.
+
+Unloading 2022 unused Assets to reduce memory usage. Loaded Objects now: 6229.
+Total: 9.920352 ms (FindLiveObjects: 0.653672 ms CreateObjectMapping: 0.458136 ms MarkObjects: 4.151922 ms  DeleteObjects: 4.655697 ms)
+
+ProgressiveSceneManager::Cancel()
+2022-05-13 00:48:32.153 Unity[15577:807187] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001c4db20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Calling custom build script for Android (use useAPKExpansionFiles=False)
+
+[ScriptCompilation] Recompiling all scripts because: Define symbols changed
+Deleting stamp file at Library/ScriptAssemblies/BuiltinAssemblies.stamp
+- Starting script compilation
+- Starting compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+- Finished script compilation in 35.752845 seconds
+Assets/Game/AppGames/CardLine_MiniGame/Quiz/CardLine_Quiz_Pedagogy.cs(7,7): warning CS0105: The using directive for 'WWTK.School.Pedagogy' appeared previously in this namespace
+
+Start importing Assets/Resources/BuildEnv.txt using Guid(a75d1d9cdea4a4aa3828ff0e6982c667) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3116fde3208470eca2ad5d38ad34960f') in 0.040552 seconds 
+Refreshing native plugins compatible for Editor in 7.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 1361.858ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.077ms
+	Scan: 17.564ms
+	OnSourceAssetsModified: 1.007ms
+	InitializeImportedAssetsSnapshot: 19.837ms
+	GetAllGuidsForCategorization: 3.316ms
+	CategorizeAssets: 111.417ms
+	ImportAndPostprocessOutOfDateAssets: 1133.039ms (6.941ms without children)
+		ImportManagerImport: 49.098ms (7.798ms without children)
+			ImportInProcess: 41.235ms
+			UpdateCategorizedAssets: 0.065ms
+		PostProcessAllAssets: 1020.910ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 32.641ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 3.692ms
+		OnDemandSchedulerStart: 2.346ms
+		RestoreLoadedAssetsState: 5.076ms
+	UpdateImportedAssetsSnapshot: 12.332ms
+	ReloadSourceAssets: 4.670ms
+	UnloadImportedAssets: 0.737ms
+	Hotreload: 16.218ms
+	FixTempGuids: 0.007ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.793ms
+	UnloadStreamsBegin: 0.181ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 2.321ms
+	GetLoadedSourceAssetsSnapshot: 9.493ms
+	PersistCurrentRevisions: 2.991ms
+	UnloadStreamsEnd: 0.600ms
+	Untracked: 36.587ms
+ScriptBackend = 
+
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4c7e82079a56ac8ed73a0fb9d06e6c8e') in 0.003734 seconds 
+Start importing ProjectSettings/EditorBuildSettings.asset using Guid(0000000000000000b000000000000000) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2a0b527709d4c73b41aeebdb18a490a9') in 0.001830 seconds 
+Refreshing native plugins compatible for Editor in 6.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 187.043ms
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(1f697741f6e4e4906990e85cf7813658) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e532f20860027a608904a4e6503a08fe') in 0.001934 seconds 
+Refreshing native plugins compatible for Editor in 3.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 1.760599 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 1760.593ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.091ms
+	Scan: 545.406ms
+	OnSourceAssetsModified: 0.072ms
+	InitializeImportedAssetsSnapshot: 7.854ms
+	GetAllGuidsForCategorization: 1.995ms
+	CategorizeAssets: 18.813ms
+	ImportAndPostprocessOutOfDateAssets: 1162.074ms (2.864ms without children)
+		ImportManagerImport: 1113.048ms (4.869ms without children)
+			ImportInProcess: 1108.108ms
+			UpdateCategorizedAssets: 0.071ms
+		PostProcessAllAssets: 27.630ms
+		ReloadImportedAssets: 0.002ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 4.833ms
+		InitializingProgressBar: 0.002ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 2.290ms
+		OnDemandSchedulerStart: 1.444ms
+		RestoreLoadedAssetsState: 3.313ms
+	UpdateImportedAssetsSnapshot: 6.648ms
+	ReloadSourceAssets: 1.456ms
+	UnloadImportedAssets: 0.490ms
+	Hotreload: 6.909ms
+	FixTempGuids: 0.003ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.577ms
+	UnloadStreamsBegin: 0.179ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.605ms
+	GetLoadedSourceAssetsSnapshot: 6.640ms
+	PersistCurrentRevisions: 1.562ms
+	UnloadStreamsEnd: 0.207ms
+	Untracked: 3.658ms
+
+Start importing ProjectSettings/UnityConnectSettings.asset using Guid(0000000000000000a100000000000000) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '60b88811e02607d27f7efc863995eb5a') in 0.001481 seconds 
+Refreshing native plugins compatible for Editor in 3.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 87.086ms
+DisplayProgressbar: Checking prerequisites
+Android PostProcess task "Checking prerequisites" took 3.2074 ms
+DisplayProgressbar: Detect Java Development Kit (JDK)
+Android PostProcess task "Detect Java Development Kit (JDK)" took 85.6891 ms
+DisplayProgressbar: Detecting Android SDK
+AndroidSDKTools:
+
+	root          : /Applications/android-sdk-macosx
+	tools         : /Applications/android-sdk-macosx/tools
+	platform-tools: /Applications/android-sdk-macosx/platform-tools
+	build-tools   : /Applications/android-sdk-macosx/build-tools/29.0.2
+
+	adb           : /Applications/android-sdk-macosx/platform-tools/adb
+
+Android PostProcess task "Detecting Android SDK" took 5955.7707 ms
+DisplayProgressbar: Detect Android NDK
+Android PostProcess task "Detect Android NDK" took 72.7324 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0.688 ms
+BuildPlayerGenerator: Succeeded
+[ScriptCompilation] Recompiling all scripts because: Recompiling scripts for player build.
+BuildPlayer: start building target 13
+- Starting script compilation
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
+- Starting ILPostProcessorRunner
+- Starting ILPostProcessor 'zzzUnity.Burst.CodeGen.BurstILPostProcessor' on UnityEngine.UI.dll
+- Finished script compilation in 13.982322 seconds
+
+BuildPlayerGenerator: Succeeded
+2022-05-13 00:49:43.428 Unity[15577:807187] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600005ee9030 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Refresh completed in 1.263199 seconds.
+RefreshInfo: RefreshV2() scanfilter: 
+RefreshProfiler: Total: 1263.187ms
+	InvokeBeforeRefreshCallbacks: 0.003ms
+	ApplyChangesToAssetFolders: 0.103ms
+	Scan: 809.790ms
+	OnSourceAssetsModified: 0.000ms
+	InitializeImportedAssetsSnapshot: 14.504ms
+	GetAllGuidsForCategorization: 2.641ms
+	CategorizeAssets: 354.755ms
+	ImportAndPostprocessOutOfDateAssets: 15.776ms (1.820ms without children)
+		PostProcessAllAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 6.244ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 2.441ms
+		OnDemandSchedulerStart: 1.766ms
+		RestoreLoadedAssetsState: 3.505ms
+	ReloadSourceAssets: 1.795ms
+	UnloadImportedAssets: 0.559ms
+	Hotreload: 0.022ms
+	FixTempGuids: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.804ms
+	UnloadStreamsBegin: 10.322ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.948ms
+	GetLoadedSourceAssetsSnapshot: 5.684ms
+	PersistCurrentRevisions: 1.793ms
+	UnloadStreamsEnd: 0.157ms
+	GenerateScriptTypeHashes: 0.032ms
+	Untracked: 41.526ms
+- cardline_cards (484 / 4096) bytes
+- Batching 85 : Memory 395 MB
+- 	Placed sprite                                                        rectangle in page (  0) at (   0,    0). Page is now ( 694,  184). ( 698/188).
+Sprite Atlas Operation : " ## Generate Texture and Render Datas ## " took 3.469379 sec (current mem: 700 MB)
+- Packing completed.
+Refreshing native plugins compatible for Editor in 4.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 482.976ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.080ms
+	Scan: 114.477ms
+	OnSourceAssetsModified: 0.304ms
+	InitializeImportedAssetsSnapshot: 24.111ms
+	GetAllGuidsForCategorization: 2.395ms
+	CategorizeAssets: 17.194ms
+	ImportAndPostprocessOutOfDateAssets: 263.875ms (-1.284ms without children)
+		ImportManagerImport: 216.798ms (18.561ms without children)
+			ImportInProcess: 197.493ms
+			UpdateCategorizedAssets: 0.745ms
+		PostProcessAllAssets: 8.672ms
+		ReloadImportedAssets: 9.026ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 5.561ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 3.285ms
+		OnDemandSchedulerStart: 1.464ms
+		RestoreLoadedAssetsState: 5.936ms
+	UpdateImportedAssetsSnapshot: 14.413ms
+	ReloadSourceAssets: 4.079ms
+	UnloadImportedAssets: 1.251ms
+	Hotreload: 6.143ms
+	FixTempGuids: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.979ms
+	UnloadStreamsBegin: 23.371ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 2.595ms
+	GetLoadedSourceAssetsSnapshot: 12.227ms
+	PersistCurrentRevisions: 2.156ms
+	UnloadStreamsEnd: 0.241ms
+	Untracked: 6.490ms
+- number_cut_help (18 / 4096) bytes
+- number_bond3_help (36 / 4096) bytes
+- locale_choice_menu (966 / 4096) bytes
+System memory in use before: 0.50 GB.
+System memory in use after: 0.50 GB.
+
+Unloading 423 unused Assets to reduce memory usage. Loaded Objects now: 9382.
+Total: 12.164594 ms (FindLiveObjects: 0.876830 ms CreateObjectMapping: 0.489776 ms MarkObjects: 10.350991 ms  DeleteObjects: 0.445987 ms)
+
+- Batching 129 : Memory 266 MB
+- 	Placed sprite                         Sticker_SquareClub_Mission_BirdIsland_02 in page (  0) at (   0,    0). Page is now ( 303,  306). ( 307/310).
+Processing Atlas : SquareClub_Missions_Mushroom
+Sprite Atlas Operation : " ## Generate Texture and Render Datas ## " took 1.065371 sec (current mem: 290 MB)
+- Packing completed.
+Refreshing native plugins compatible for Editor in 6.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 691.718ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.053ms
+	Scan: 77.254ms
+	OnSourceAssetsModified: 0.241ms
+	InitializeImportedAssetsSnapshot: 16.416ms
+	GetAllGuidsForCategorization: 2.033ms
+	CategorizeAssets: 19.941ms
+	ImportAndPostprocessOutOfDateAssets: 502.976ms (6.255ms without children)
+		ImportManagerImport: 345.800ms (16.949ms without children)
+			ImportInProcess: 327.681ms
+			UpdateCategorizedAssets: 1.171ms
+		PostProcessAllAssets: 90.710ms
+		ReloadImportedAssets: 0.057ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 7.811ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 3.644ms
+		OnDemandSchedulerStart: 2.053ms
+		RestoreLoadedAssetsState: 7.374ms
+	UpdateImportedAssetsSnapshot: 39.267ms
+	ReloadSourceAssets: 2.473ms
+	UnloadImportedAssets: 2.500ms
+	Hotreload: 9.204ms
+	FixTempGuids: 0.010ms
+	GatherAllCurrentPrimaryArtifactRevisions: 1.169ms
+	UnloadStreamsBegin: 3.431ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 8.409ms
+	GetLoadedSourceAssetsSnapshot: 13.283ms
+	PersistCurrentRevisions: 13.406ms
+	UnloadStreamsEnd: 1.524ms
+	Untracked: 17.394ms
+Sprite Atlas Operation : " ## Packed All Sprite Atlases ## " took 211.253149 sec (current mem: 256 MB)
+SpriteAtlasPacking completed in 211.540905 sec
+Opening scene 'Assets/Product/Menu/ScProductChoice.unity'
+Unloading 1342 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Product/Menu/ScProductChoice.unity'
+	Deserialize:            600.303 ms
+	Integration:            168.904 ms
+	Integration of assets:  34.737 ms
+	Thread Wait Time:       0.065 ms
+	Total Operation Time:   804.010 ms
+System memory in use before: 0.50 GB.
+System memory in use after: 491.3 MB.
+
+Unloading 218 unused Assets to reduce memory usage. Loaded Objects now: 10448.
+Total: 12.732306 ms (FindLiveObjects: 1.645399 ms CreateObjectMapping: 0.709356 ms MarkObjects: 10.057108 ms  DeleteObjects: 0.319738 ms)
+
+Opening scene 'Assets/DragonBox.LoginAccess/Login/ScLoginAccess.unity'
+LightingSettings: switching bake backend from 1 to 0.
+Unloading 20885 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/DragonBox.LoginAccess/Login/ScLoginAccess.unity'
+	Deserialize:            5.341 ms
+	Integration:            294.409 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   299.794 ms
+System memory in use before: 0.97 GB.
+System memory in use after: 0.90 GB.
+
+Unloading 38805 unused Assets to reduce memory usage. Loaded Objects now: 12047.
+Total: 111.721438 ms (FindLiveObjects: 4.649338 ms CreateObjectMapping: 4.528032 ms MarkObjects: 10.742955 ms  DeleteObjects: 91.800241 ms)
+
+Opening scene 'Assets/DragonBox.LoginAccess/MainMenu/MainMenu.unity'
+LightingSettings: switching bake backend from 1 to 0.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/DragonBox.LoginAccess/MainMenu/MainMenu.unity'
+	Deserialize:            9.695 ms
+	Integration:            128.113 ms
+	Integration of assets:  0.050 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   137.891 ms
+System memory in use before: 0.71 GB.
+System memory in use after: 0.71 GB.
+
+Unloading 900 unused Assets to reduce memory usage. Loaded Objects now: 12595.
+Total: 15.330245 ms (FindLiveObjects: 2.069771 ms CreateObjectMapping: 0.876396 ms MarkObjects: 11.634738 ms  DeleteObjects: 0.747796 ms)
+
+Opening scene 'Assets/DragonBox.LoginAccess/Profiles/ProfileManagement.unity'
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/DragonBox.LoginAccess/Profiles/ProfileManagement.unity'
+	Deserialize:            19.955 ms
+	Integration:            232.596 ms
+	Integration of assets:  1.296 ms
+	Thread Wait Time:       0.755 ms
+	Total Operation Time:   254.603 ms
+System memory in use before: 0.71 GB.
+System memory in use after: 0.71 GB.
+
+Unloading 1393 unused Assets to reduce memory usage. Loaded Objects now: 11518.
+Total: 20.984736 ms (FindLiveObjects: 2.251136 ms CreateObjectMapping: 1.249389 ms MarkObjects: 16.588048 ms  DeleteObjects: 0.895282 ms)
+
+Script attached to 'SceneContext' in scene 'Assets/DragonBox.LoginAccess/Profiles/ProfileManagement.unity' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:422)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:321)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:290)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:561)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:244)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Opening scene 'Assets/DragonBox.School/App/Resources/ProfileContext.unity'
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/DragonBox.School/App/Resources/ProfileContext.unity'
+	Deserialize:            0.637 ms
+	Integration:            41.521 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.041 ms
+	Total Operation Time:   42.200 ms
+System memory in use before: 0.70 GB.
+System memory in use after: 0.70 GB.
+
+Unloading 863 unused Assets to reduce memory usage. Loaded Objects now: 9739.
+Total: 9.072598 ms (FindLiveObjects: 0.904711 ms CreateObjectMapping: 0.548666 ms MarkObjects: 6.978931 ms  DeleteObjects: 0.639534 ms)
+
+Opening scene 'Assets/DragonBox.School/App/Resources/DemoProfileContext.unity'
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/DragonBox.School/App/Resources/DemoProfileContext.unity'
+	Deserialize:            0.743 ms
+	Integration:            37.095 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.045 ms
+	Total Operation Time:   37.884 ms
+System memory in use before: 0.70 GB.
+System memory in use after: 0.70 GB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 9744.
+Total: 9.111311 ms (FindLiveObjects: 0.844856 ms CreateObjectMapping: 0.453288 ms MarkObjects: 7.778662 ms  DeleteObjects: 0.033778 ms)
+
+Opening scene 'Assets/Game/AppGames/Mega_Sandbox/ScMegaSandBox.unity'
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Game/AppGames/Mega_Sandbox/ScMegaSandBox.unity'
+	Deserialize:            60.577 ms
+	Integration:            549.905 ms
+	Integration of assets:  4.351 ms
+	Thread Wait Time:       0.055 ms
+	Total Operation Time:   614.888 ms
+System memory in use before: 0.74 GB.
+System memory in use after: 0.74 GB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 19519.
+Total: 33.809309 ms (FindLiveObjects: 2.576471 ms CreateObjectMapping: 1.826229 ms MarkObjects: 29.352749 ms  DeleteObjects: 0.053140 ms)
+
+Opening scene 'Assets/Standard Assets/UPackages/wwtk.SceneSystem~0.9.5/SceneBuffer.unity'
+LightingSettings: switching bake backend from 1 to 0.
+Unloading 404 Unused Serialized files (Serialized files now loaded: 0)
+The file '/Users/adminwwtk/Library/Caches/com.unity3d.UnityEditor/GiCache/8f/8f34195abf7888391aaeeee42e6b65b5.LightingData.asset' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:422)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:321)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:290)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:561)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:244)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Fatal Error! The file '/Users/adminwwtk/Library/Caches/com.unity3d.UnityEditor/GiCache/8f/8f34195abf7888391aaeeee42e6b65b5.LightingData.asset' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:561)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:244)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:422)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:321)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:295)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) (at /Users/bokken/buildslave/unity/build/Editor/Mono/BuildPipeline.bindings.cs:290)
+WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:561)
+WWTK.SimpleBuild:PerformGenericAndroidBuild (bool) (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:300)
+WWTK.SimpleBuild:PerformAndroidBuild () (at Assets/Standard Assets/UPackages/wwtk.SimpleBuild~1.2.1/Editor/SimpleBuild.cs:244)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+[Package Manager] Server::Kill -- Server was shutdown
+Compressing using quality level 191
+Compressing using quality level 127
+Compressing using quality level 127
+Obtained 68 stack frames.
+#0  0x007ff81788f112 in __pthread_kill
+#1  0x007ff817811d10 in abort
+#2  0x0000010b2c6a6e in CrashDontLaunchBugReporter()
+#3  0x00000108f444b7 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry const&)
+#4  0x00000108f4388c in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x00000108f4524e in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x0000010ad10edd in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x0000010ad117c3 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000107d0a64d in CachedReader::OutOfBoundsError(unsigned long, unsigned long)
+#9  0x00000107d0abec in CachedReader::UpdateReadCache(void*, unsigned long)
+#10 0x000001074a6e06 in void LightProbeOcclusion::Transfer<StreamedBinaryRead>(StreamedBinaryRead&)
+#11 0x000001074a6dab in void StreamedBinaryRead::TransferSTLStyleArray<dynamic_array<LightProbeOcclusion, 0ul> >(dynamic_array<LightProbeOcclusion, 0ul>&, TransferMetaFlags)
+#12 0x00000107492ae5 in LightProbes::VirtualRedirectTransfer(StreamedBinaryRead&)
+#13 0x00000108546554 in SerializedFile::ReadObject(long long, ObjectCreationMode, bool, TypeTree const**, bool*, Object&)
+#14 0x000001084f4e5a in PersistentManager::ReadAndActivateObjectThreaded(int, SerializedObjectIdentifier const&, SerializedFile*, bool, bool, PersistentManager::LockFlags)
+#15 0x000001084f58cf in PersistentManager::LoadFileCompletelyThreaded(core::basic_string_ref<char>, long long*, int*, int, PersistentManager::LoadFlags, LoadProgress&, PersistentManager::LockFlags)
+#16 0x000001096a72a6 in ReadObjectsFromDiskExecute(core::basic_string<char, core::StringStorageDefault<char> > const&, AwakeFromLoadQueue&)
+#17 0x0000010a5a4c8b in ReadLightingDataAssetFromCache(int const&)
+#18 0x0000010a616bec in SceneLoadedBeforeAwakeStatic(int, AwakeFromLoadQueue&, SceneLoadingMode)
+#19 0x00000107c908db in CallbackArray3<int const, AwakeFromLoadQueue&, SceneLoadingMode>::Invoke(int, AwakeFromLoadQueue&, SceneLoadingMode)
+#20 0x00000107c903be in LoadSceneOperation::CompleteAwakeSequence()
+#21 0x00000107c8fc65 in LoadSceneOperation::CompletePreloadManagerLoadSceneEditor()
+#22 0x00000107c8ef47 in LoadSceneOperation::IntegrateMainThread()
+#23 0x00000107c9194d in PreloadManager::UpdatePreloadingSingleStep(PreloadManager::UpdatePreloadingFlags, int)
+#24 0x00000107c92451 in PreloadManager::WaitForAllAsyncOperationsToComplete()
+#25 0x0000010989e892 in EditorSceneManager::RestoreSceneBackups(std::__1::vector<EditorSceneBackup, stl_allocator<EditorSceneBackup, (MemLabelIdentifier)122, 16> >&, EditorSceneManager::PlayModeChange)
+#26 0x0000010989dcd4 in EditorSceneManager::OpenSceneForBuild(core::basic_string<char, core::StringStorageDefault<char> > const&, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#27 0x0000010b1dba45 in BuildPlayerData(BuildTargetPlatformGroup, BuildTargetPlatform, BuildPlayerOptions, BuildCompression const&, dynamic_array<core::basic_string<char, core::StringStorageDefault<char> >, 0ul>, AssetBundleBuildData*, std::__1::vector<EditorSceneBackup, stl_allocator<EditorSceneBackup, (MemLabelIdentifier)122, 16> >&, ScriptingObjectPtr, BuildReporting::BuildReport&, core::basic_string<char, core::StringStorageDefault<char> > const&, BuildReporting::BuiltAssetBundleInfo*, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#28 0x0000010b1d403f in DoBuildPlayer_Build(BuildPlayerSetup const&, std::__1::vector<EditorSceneBackup, stl_allocator<EditorSceneBackup, (MemLabelIdentifier)122, 16> >&, BuildPlayerOptions, BuildTargetPlatformGroup, BuildTargetPlatform, dynamic_array<core::basic_string<char, core::StringStorageDefault<char> >, 0ul> const&, bool, ScriptingObjectPtr&, BuildReporting::BuildReport&, BuildReporting::BuiltAssetBundleInfo*, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#29 0x0000010b1d1b12 in DoBuildPlayer(BuildPlayerSetup const&, std::__1::vector<EditorSceneBackup, stl_allocator<EditorSceneBackup, (MemLabelIdentifier)122, 16> >&, core::basic_string<char, core::StringStorageDefault<char> >, dynamic_array<core::basic_string<char, core::StringStorageDefault<char> >, 0ul>, bool, BuildReporting::BuildReport&, BuildReporting::BuiltAssetBundleInfo*, core::basic_string<char, core::StringStorageDefault<char> > const&)
+#30 0x0000010b1d7444 in BuildPlayer(BuildPlayerSetup const&, BuildReporting::BuildReport&)
+#31 0x0000010a440f59 in BuildPipeline_CUSTOM_BuildPlayerInternalNoCheck(ScriptingBackendNativeArrayPtrOpaque*, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeStringPtrOpaque*, BuildTargetPlatformGroup, BuildTargetPlatform, BuildPlayerOptions, ScriptingBackendNativeArrayPtrOpaque*, unsigned char)
+#32 0x0000018400adfb in  (wrapper managed-to-native) UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[],bool) {0x7f8b4ab15960} + 0x9b (0x18400ad60 0x18400ae85) [0x14d5c2960 - Unity Child Domain]
+#33 0x0000018400a683 in  UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) {0x7f8b5829ad58} + 0x83 (0x18400a600 0x18400a6eb) [0x14d5c2960 - Unity Child Domain]
+#34 0x0000018400a1bb in  UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,string[]) {0x7f8b5829ac08} + 0x17b (0x18400a040 0x18400a34b) [0x14d5c2960 - Unity Child Domain]
+#35 0x0000018400a02b in  UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) {0x7f8b5829abe0} + 0x3b (0x184009ff0 0x18400a02d) [0x14d5c2960 - Unity Child Domain]
+#36 0x00000184009fdb in  UnityEditor.BuildPipeline:BuildPlayer (string[],string,UnityEditor.BuildTarget,UnityEditor.BuildOptions) {0x7f8b5829abb8} + 0xfb (0x184009ee0 0x184009fe1) [0x14d5c2960 - Unity Child Domain]
+#37 0x0000016ea56ceb in  WWTK.SimpleBuild:GenericBuild (string,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool) {0x7f8b488c5cd0} + 0x21b (0x16ea56ad0 0x16ea56df3) [0x14d5c2960 - Unity Child Domain]
+#38 0x0000015283acbf in mono_jit_runtime_invoke
+#39 0x000001529d8c7b in do_runtime_invoke
+#40 0x000001529d8bd5 in mono_runtime_invoke
+#41 0x000001084568c7 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+#42 0x0000010844fdb0 in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+#43 0x000001090c08b2 in Application::ParseARGVCommands()
+#44 0x000001090bf66f in Application::FinishLoadingProject()
+#45 0x0000010b2d2490 in -[EditorApplication applicationDidFinishLaunching:]
+#46 0x007ff817981f23 in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#47 0x007ff817a1f3f9 in ___CFXRegistrationPost_block_invoke
+#48 0x007ff817a1f376 in _CFXRegistrationPost
+#49 0x007ff817953836 in _CFXNotificationPost
+#50 0x007ff81879b1ae in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#51 0x007ff81a3c23db in -[NSApplication _postDidFinishNotification]
+#52 0x007ff81a3c212d in -[NSApplication _sendFinishLaunchingNotification]
+#53 0x007ff81a3bfd00 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#54 0x007ff81a3bf957 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#55 0x007ff8187c6184 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#56 0x007ff8187c5ff6 in _NSAppleEventManagerGenericHandler
+#57 0x007ff81e018d28 in _AppleEventsCheckInAppWithBlock
+#58 0x007ff81e018592 in _AppleEventsCheckInAppWithBlock
+#59 0x007ff81e0119c7 in aeProcessAppleEvent
+#60 0x007ff8205cec42 in AEProcessAppleEvent
+#61 0x007ff81a3b9fe6 in _DPSNextEvent
+#62 0x007ff81a3b81b8 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#63 0x007ff81a3aa5a9 in -[NSApplication run]
+#64 0x007ff81a37e447 in NSApplicationMain
+#65 0x0000010b30d1b9 in EditorMain(int, char const**)
+#66 0x0000010b30d3e9 in main
+#67 0x0000011c64f4fe in (Unknown)

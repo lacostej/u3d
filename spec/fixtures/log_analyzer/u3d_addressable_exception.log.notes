@@ -1,0 +1,29 @@
+Adding genesis user token Uploading Crash Report
+ArgumentException: An item with the same key has already been added. Key: a66ebc70376184168be1b2607004f74a
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.Build.Pipeline.BundleBuildContent..ctor (System.Collections.Generic.IEnumerable`1[T] bundleBuilds) [0x00159] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.0/Editor/Shared/BuildContent.cs:161 
+  at UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode.DoBuild[TResult] (UnityEditor.AddressableAssets.Build.AddressablesDataBuilderInput builderInput, UnityEditor.AddressableAssets.Build.DataBuilders.AddressableAssetsBuildContext aaContext) [0x0012c] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Build/DataBuilders/BuildScriptPackedMode.cs:219 
+  at UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode.BuildDataImplementation[TResult] (UnityEditor.AddressableAssets.Build.AddressablesDataBuilderInput builderInput) [0x00079] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Build/DataBuilders/BuildScriptPackedMode.cs:77 
+  at UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptBase.BuildData[TResult] (UnityEditor.AddressableAssets.Build.AddressablesDataBuilderInput builderInput) [0x0009b] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Build/DataBuilders/BuildScriptBase.cs:89 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.BuildPlayerContentImpl () [0x00034] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Settings/AddressableAssetSettings.cs:2144 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.BuildPlayerContent (UnityEditor.AddressableAssets.Build.AddressablesPlayerBuildResult& result) [0x000d9] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Settings/AddressableAssetSettings.cs:2126 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.BuildPlayerContent () [0x00001] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Library/PackageCache/com.unity.addressables@1.18.9/Editor/Settings/AddressableAssetSettings.cs:2093 
+  at WWTK.BuildAddressablesPreprocess.BuildAddressables (UnityEditor.BuildTarget target, System.String target_dir) [0x00016] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/Editor/BuildAddressablesPreprocess.cs:18 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at WWTK.SimpleBuild.RunPreprocesses (System.String target_dir, UnityEditor.BuildTarget build_target) [0x000df] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:697 
+  at WWTK.SimpleBuild.PreProcess (System.String target_dir, UnityEditor.BuildTarget build_target) [0x0002c] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:589 
+  at WWTK.SimpleBuild.GenericBuild (System.String target_dir, UnityEditor.BuildTarget build_target, UnityEditor.BuildOptions build_options, System.Boolean override_options) [0x0002d] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:547 
+  at WWTK.SimpleBuild.PerformIOSBuild () [0x0001c] in /Users/adminwwtk/jenkins/workspace/game_KahootDragonBoxAlgebra12_ios/Assets/UPackages/wwtk.SimpleBuild~1.2.0/Editor/SimpleBuild.cs:237 
+ 
+(Filename: <eae584ce26bc40229c1b1aa476bfa589> Line: 0)
+
+executeMethod method WWTK.SimpleBuild.PerformIOSBuild threw exception. 
+(Filename: ./Runtime/Utilities/Argv.cpp Line: 376)
+
+
+weird that "Uploading Crash Report" didn't start on its own line

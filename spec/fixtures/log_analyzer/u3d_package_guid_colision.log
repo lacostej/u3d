@@ -1,0 +1,337 @@
+Unity Editor version:    2019.4.31f1 (bd5abf232a62)
+Branch:                  2019.4/staging
+Build type:              Debug
+Batch mode:              YES
+macOS version:           Version 10.16 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+[LicensingClient] ERROR Failed to connect to local IPC
+[Licensing::Module] Failed to connect to channel: LicenseClient-adminwwtk
+Launching external process: /Applications/Unity_2019.4.31f1/Unity.app/Contents/Frameworks/UnityLicensingClient.app/Contents/Resources/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-adminwwtk
+[Licensing::Module] Successfully launched and connected to LicensingClient
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+[Licensing::Module] Serial number assigned to: "SB-FNES-JATA-KCMB-M2NZ-XXXX"\nPro License: YES
+
+LICENSE SYSTEM [2022524 16:15:16] Next license update check is after 2022-05-25T11:53:34
+
+
+LICENSE SYSTEM [2022524 16:15:16] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 51697 was selected
+Launching external process: /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity_2019.4.31f1/Unity.app/Contents/MacOS/Unity
+-logFile
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/u3d.log
+-projectPath
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios
+-quit
+-batchmode
+-accept-apiupdate
+-buildTarget
+ios
+-executeMethod
+WWTK.SimpleBuild.PerformIOSBuild
+-username
+xxxxx@sssssss.com
+-password
+(hidden)
+-ignoreCompilerErrors
+Successfully changed project path to: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios
+/Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios
+Using Asset Import Pipeline V2.
+DisplayProgressbar: Unity Package Manager
+Adding genesis user token [Package Manager] Done resolving packages in 1.10s seconds
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 62 packages:
+  Packages from [https://package.openupm.com]:
+    com.neuecc.unirx@7.1.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.neuecc.unirx@7.1.0)
+    com.amplitude.unityplugin@2.4.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.amplitude.unityplugin@2.4.0)
+  Packages from [https://packages.unity.com]:
+    com.unity.addressables@1.18.9 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.addressables@1.18.9)
+    com.unity.ide.rider@1.1.4 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.ide.rider@1.1.4)
+    com.unity.ide.vscode@1.2.3 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.ide.vscode@1.2.3)
+    com.unity.localization@1.0.0-pre.9 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.localization@1.0.0-pre.9)
+    com.unity.memoryprofiler@0.2.9-preview.3 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.memoryprofiler@0.2.9-preview.3)
+    com.unity.nuget.newtonsoft-json@3.0.2 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2)
+    com.unity.purchasing@4.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.purchasing@4.0.0)
+    com.unity.test-framework@1.1.16 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.test-framework@1.1.16)
+    com.unity.services.core@1.0.1 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.services.core@1.0.1)
+    com.unity.editorcoroutines@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.editorcoroutines@1.0.0)
+    com.unity.scriptablebuildpipeline@1.19.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.0)
+    com.unity.ext.nunit@1.0.6 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.ext.nunit@1.0.6)
+  Packages from [https://upm.dragonbox.com]:
+    com.google.external-dependency-manager@1.2.171 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.google.external-dependency-manager@1.2.171)
+    com.google.play.review@1.5.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.google.play.review@1.5.0)
+    com.google.play.common@1.5.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.google.play.common@1.5.0)
+    com.google.play.core@1.5.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.google.play.core@1.5.0)
+    com.google.android.appbundle@1.5.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.google.android.appbundle@1.5.0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.2d.sprite@1.0.0)
+    com.unity.ugui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.ugui@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.audio@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.uielements@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.video@1.0.0 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.unity.modules.video@1.0.0)
+  Git packages:
+    com.dragonbox.simple-build@ssh://git@bitbucket.org/WeWantToKnow/wwtk.SimpleBuild.git?path=Assets/DragonBox.SimpleBuild#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.simple-build@2718d5b81c)
+    com.kahoot.family@ssh://git@bitbucket.org/WeWantToKnow/wwtk.kahootfamily.git?path=Assets/KahootFamily#upm_KahootFamily (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.kahoot.family@5bc4013fe1)
+    com.kahoot.scrollsnaps@ssh://git@bitbucket.org/WeWantToKnow/wwtk.kahootfamily.git?path=Assets/ScrollSnaps#upm_KahootFamily (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.kahoot.scrollsnaps@5bc4013fe1)
+    com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.2.5 (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.cysharp.unitask@72e620d169)
+    com.dragonbox.apps-installed@ssh://git@bitbucket.org/WeWantToKnow/wwtk.appsinstalled.git?path=Assets/DragonBox.AppsInstalled#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.apps-installed@406dcee586)
+    com.dragonbox.authenticator@ssh://git@bitbucket.org/WeWantToKnow/wwtk.Authenticator.git?path=Assets/com.dragonbox.authenticator#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.authenticator@e503819591)
+    com.dragonbox.commands@ssh://git@bitbucket.org/WeWantToKnow/wwtk.kahootfamily.git?path=Assets/DragonBox.Commands#upm_KahootFamily (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.commands@5bc4013fe1)
+    com.dragonbox.core@ssh://git@bitbucket.org/WeWantToKnow/wwtk.core.git?path=Assets/DragonBox.Core#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.core@fb4c9ffa1a)
+    com.dragonbox.google.google-signin-plugin@ssh://git@bitbucket.org/WeWantToKnow/googlesigninunity.git?path=Assets/Export#upm (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.google.google-signin-plugin@31d3546ad8)
+    com.dragonbox.oauth@ssh://git@bitbucket.org/WeWantToKnow/wwtk.OAuth.git?path=Assets/OAuth#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.oauth@a3634ce160)
+    com.dragonbox.oauth-rx@ssh://git@bitbucket.org/WeWantToKnow/wwtk.OAuth.git?path=Assets/OAuthRx#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Library/PackageCache/com.dragonbox.oauth-rx@a3634ce160)
+    com.dragonbox.oauth-async@ssh://git@bitbucket.org/WeWantToKnow/wwtk.OAuth.git?path=Assets/OAuthAsync#fix/asmdef_runtime (location: /Users/adminwwtk/jenkins/[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.11s seconds
+Targeting platform: ios
+Refreshing native plugins compatible for Editor in 211.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.31f1 (bd5abf232a62)
+[Subsystems] Discovering subsystems at path /Applications/Unity_2019.4.31f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/adminwwtk/jenkins/workspace/game_KahootNumbers-master_ios/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-24 16:15:19.776 Unity[29041:11641016] (null) preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-05-24 16:15:19.776 Unity[29041:11641016] Metal devices available: 1
+2022-05-24 16:15:19.776 Unity[29041:11641016] 0: Intel(R) UHD Graphics 630 (low power)
+2022-05-24 16:15:19.776 Unity[29041:11641016] Using device Intel(R) UHD Graphics 630 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 630
+Initialize mono
+Mono path[0] = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity_2019.4.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56041
+ImportWorker Server TCP listen port: 51714
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity_2019.4.31f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity_2019.4.31f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.014712 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.199 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4225ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (114ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Registering precompiled user dll's ...
+Registered in 0.309045 seconds.
+Platform modules already initialized, skipping
+Validating Project structure ... 0.074951 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.100004 seconds.
+A meta data file (.meta) exists but its asset 'Assets/AddressableAssetsData/Android/addressables_content_state.bin' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/FilteredFileIterationState.cpp Line: 78)
+
+A meta data file (.meta) exists but its asset 'Assets/Plugins/iOS/GoogleSignIn' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it. 
+(Filename: ./Modules/AssetDatabase/Editor/V2/FilteredFileIterationState.cpp Line: 78)
+
+GUID [0dfc95684913b4907aa3a28ca02d8a4d] for asset 'Packages/com.dragonbox.apps-installed/Runtime/Plugins' conflicts with:
+  'Assets/UPackages/wwtk.AppsInstalled~0.0.3/Plugins' (current owner)
+We can't assign a new GUID because the asset is in an immutable folder. The asset will be ignored.
+
+GUID [c81c056766f036b4b8976d43af9ef2f2] for asset 'Packages/com.dragonbox.commands/Runtime/Examples' conflicts with:
+  'Assets/UPackages/DragonBox.Commands~0.0.3/Examples' (current owner)
+We can't assign a new GUID because the asset is in an immutable folder. The asset will be ignored.
+
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'ProjectSettings/ProjectSettings.asset' (target hash: 'bb8dd79d0470b4029fe096eae3f3a90a') in 0.021062 seconds
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on GOLoader
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed 
+(Filename: ./Runtime/Mono/MonoScriptCache.cpp Line: 369)
+
+OnLevelWasLoaded was found on LoadAnimRod
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed 
+(Filename: ./Runtime/Mono/MonoScriptCache.cpp Line: 369)
+
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Reading iOS dependency XML file Packages/com.amplitude.unityplugin/Editor/AmplitudeDependencies.xml
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:124)
+Google.IOSResolver:Log (string,bool,Google.LogLevel) (at Z:/tmp/tmp.USiPupnd6F/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:1208)
+Google.IOSResolver/IOSXmlDependencies:Read (string,Google.Logger) (at Z:/tmp/tmp.USiPupnd6F/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:308)
+GooglePlayServices.XmlDependencies:ReadAll (Google.Logger) (at Z:/tmp/tmp.lf37qIyT2g/third_party/unity/unity_jar_resolver/source/AndroidResolver/src/XmlDependencies.cs:87)
+Google.IOSResolver:RefreshXmlDependencies () (at Z:/tmp/tmp.USiPupnd6F/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:2767)
+Google.IOSResolver:Initialize () (at Z:/tmp/tmp.USiPupnd6F/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:759)
+Google.EditorInitializer/<InitializeOnMainThread>c__AnonStorey0:<>m__0 () (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:60)
+Google.RunOnMainThread:ExecutePollingJobs () (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:409)
+Google.RunOnMainThread:<ExecuteAllUnnested>m__1 () (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:541)
+Google.RunOnMainThread:RunAction (System.Action) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:ExecuteAllUnnested (bool) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:530)
+Google.RunOnMainThread:<PollOnUpdateUntilComplete>m__0 () (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:365)
+Google.RunOnMainThread:RunAction (System.Action) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:343)
+Google.RunOnMainThread:PollOnUpdateUntilComplete (System.Func`1<bool>,bool) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/RunOnMainThread.cs:363)
+Google.EditorInitializer:InitializeOnMainThread (System.Func`1<bool>,System.Func`1<bool>,string,Google.Logger) (at Z:/tmp/tmp.E4vuQedf3R/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/EditorInitializer.cs:48)
+Google.IOSResolver:.cctor () (at Z:/tmp/tmp.USiPupnd6F/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:711)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+ 
+(Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
+
+Adding genesis user token Mono: successfully reloaded assembly
+- Completed reload, in  7.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8041ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (1ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (7921ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (7251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (7096ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 10750.675ms
+	InvokeBeforeRefreshCallbacks: 0.334ms
+	ApplyChangesToAssetFolders: 0.063ms
+	WriteModifiedImportersToTextMetaFiles: 0.000ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 137.771ms
+	OnSourceAssetsModified: 1.316ms
+	UnregisterDeletedAssets: 0.018ms
+	InitializeImportedAssetsSnapshot: 0.543ms
+	GetAllGuidsForCategorization: 0.678ms
+	CategorizeAssets: 669.686ms
+	ImportAndPostprocessOutOfDateAssets: 9887.103ms (9647.785ms without children)
+		ImportManagerImport: 138.051ms (1.242ms without children)
+			ImportInProcess: 136.753ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.056ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 89.667ms
+		ReloadImportedAssets: 0.002ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.237ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.722ms
+		OnDemandSchedulerStart: 0.000ms
+		RestoreLoadedAssetsState: 0.129ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 9.508ms
+	ReloadSourceAssets: 1.242ms
+	UnloadImportedAssets: 0.013ms
+	Hotreload: 17.913ms
+	FixTempGuids: 0.007ms
+	VerifyGuidPMRegistrations: 0.000ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.574ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.904ms
+	GetLoadedSourceAssetsSnapshot: 1.607ms
+	PersistCurrentRevisions: 0.000ms
+	UnloadStreamsEnd: 25.225ms
+	GenerateScriptTypeHashes: 2.446ms
+	Untracked: 5.678ms
+GUID [0dfc95684913b4907aa3a28ca02d8a4d] for asset 'Packages/com.dragonbox.apps-installed/Runtime/Plugins' conflicts with:
+  'Assets/UPackages/wwtk.AppsInstalled~0.0.3/Plugins' (current owner)
+We can't assign a new GUID because the asset is in an immutable folder. The asset will be ignored.
+
+GUID [c81c056766f036b4b8976d43af9ef2f2] for asset 'Packages/com.dragonbox.commands/Runtime/Examples' conflicts with:
+  'Assets/UPackages/DragonBox.Commands~0.0.3/Examples' (current owner)
+We can't assign a new GUID because the asset is in an immutable folder. The asset will be ignored.
+
